@@ -73,7 +73,7 @@ var Validate = require('../validations/Validate');
       Mensagem: ${infoInput.value}`;
 
       let request = new XMLHttpRequest();
-      request.open('POST', 'https://formspree.io/aallysson0@gmail.com', true);
+      request.open('POST', 'https://formspree.io/teokfigueiredo@gmail.com', true);
       request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
       request.setRequestHeader('Accept', 'application/json');
       request.send(data);
